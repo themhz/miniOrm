@@ -1,0 +1,15 @@
+{
+    "name": "themhz/mini-orm",
+    "autoload": {
+        "psr-4": {
+            "Themhz\\MiniOrm\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "themhz",
+            "email": "themhz@gmail.com"
+        }
+    ],
+    "require": {}
+}
