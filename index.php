@@ -1,8 +1,13 @@
 <?php
 namespace Themhz;
 require 'vendor/autoload.php';
+use Dotenv\Dotenv;
+
+$dotenv = Dotenv::createImmutable("C:\laragon\www\miniOrm");
+$dotenv->load();
 
 use Themhz\MiniOrm\Entities\Products;
+
 
 //Update
 /*$products = new Products();
